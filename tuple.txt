@@ -1,0 +1,6 @@
+if __name__ == '__main__':
+    n = int(raw_input())  				#takes n as integer
+    integer_list = map(int, raw_input().split())  	#store n integers in list called as integer list
+    #print(type(integer_list))				#checked the type of "integer list" and found to be "list"
+    mytuple=tuple(integer_list)				#converted list into tuple data type
+    print(hash(mytuple))				#printed hash value of tuple by using hash function
