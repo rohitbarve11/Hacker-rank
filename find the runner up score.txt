@@ -1,0 +1,12 @@
+if __name__ == '__main__'
+    n = int(raw_input())
+    arr = map(int, raw_input().split())
+    #print(arr)
+    l1=[]
+    highest=max(arr)
+    #print(highest)
+    for i in arr
+        if ihighest
+            l1.append(i)
+    highest1=max(l1)
+    print(highest1)
